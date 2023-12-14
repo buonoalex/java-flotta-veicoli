@@ -2,7 +2,7 @@ package org.lesson.java.vehicle;
 
 public class Car extends Vehicle{
     //Attributi
-    private static int doorOfCar;
+    private int doorOfCar;
 
     //Costruttori
     public Car(int doorOfCarUser){
@@ -11,10 +11,11 @@ public class Car extends Vehicle{
     }
 
     //Getter and Setter
+    public int getDoorOfCar() {
+        return doorOfCar;
+    }
 
     //Metodi
-
-
     @Override
     public String toString() {
         return super.toString()+"Type = Car"+"\n"

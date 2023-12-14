@@ -2,7 +2,7 @@ package org.lesson.java.vehicle;
 
 public class Motocycle extends Vehicle{
     //Attributi
-    private static boolean motocycleStand;
+    private boolean motocycleStand;
 
     //Costruttori
     public Motocycle(boolean motocycleStandUser){
@@ -11,6 +11,9 @@ public class Motocycle extends Vehicle{
     }
 
     //Getter and Setter
+    public boolean isMotocycleStand() {
+        return motocycleStand;
+    }
 
     //Metodi
 
