@@ -6,8 +6,8 @@ import java.util.Objects;
 
 public abstract class Vehicle {
     //Attributi
-    private long plate;
-    private int yearOfRegistration;
+    private final long plate;
+    private final int yearOfRegistration;
 
     //Costruttori
     public Vehicle(){
@@ -43,4 +43,5 @@ public abstract class Vehicle {
     public int hashCode() {
         return Objects.hash(plate);
     }
+
 }

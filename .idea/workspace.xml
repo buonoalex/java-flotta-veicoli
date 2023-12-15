@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34588c6c-ada0-4c7d-b778-238720694512" name="Changes" comment="start project and add Car and Motocycle class">
-      <change afterPath="$PROJECT_DIR$/src/org/lesson/java/vehicle/FleetManager.java" afterDir="false" />
+    <list default="true" id="34588c6c-ada0-4c7d-b778-238720694512" name="Changes" comment="Finish work without bonus work in progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lesson/java/utility/UtilityVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lesson/java/utility/UtilityVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lesson/java/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lesson/java/vehicle/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lesson/java/vehicle/FleetManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lesson/java/vehicle/FleetManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/lesson/java/vehicle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lesson/java/vehicle/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lesson/java/vehicle/Motocycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lesson/java/vehicle/Motocycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/lesson/java/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lesson/java/vehicle/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +28,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ZXeE5U0WH1WvZfKbmf8nOdjjgR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,14 +38,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,11 +70,20 @@
       <option name="project" value="LOCAL" />
       <updated>1702573788958</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish work without bonus work in progress">
+      <option name="closed" value="true" />
+      <created>1702575800940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702575800940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start project and add Car and Motocycle class" />
-    <option name="LAST_COMMIT_MESSAGE" value="start project and add Car and Motocycle class" />
+    <MESSAGE value="Finish work without bonus work in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish work without bonus work in progress" />
   </component>
 </project>

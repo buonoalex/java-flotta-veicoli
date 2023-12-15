@@ -1,6 +1,7 @@
 package org.lesson.java.utility;
 
 import org.lesson.java.vehicle.Car;
+import org.lesson.java.vehicle.Motocycle;
 import org.lesson.java.vehicle.Vehicle;
 
 import java.util.List;
@@ -37,7 +38,7 @@ public class UtilityVehicle{
     public static int CountMotocycle(List<Vehicle> vehicleList){
         int countMotocycleFinal = 0;
         for (Vehicle element : vehicleList){
-            if (element instanceof Car){
+            if (element instanceof Motocycle){
                 countMotocycleFinal += 1;
             }
         }

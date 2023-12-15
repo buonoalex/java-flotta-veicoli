@@ -19,12 +19,15 @@ public class FleetManager {
     }
 
     //Metodi
-    public void AddVehicle(Vehicle vehicle){
+    public void AddVehicle(Vehicle vehicle)throws RuntimeException{
+        if (IsDuplicate(vehicle)){
+            throw new RuntimeException("Il valore è gia stato inserito!");
+        }
         this.vehicleList.add(vehicle);
     }
 
-    public Boolean FindVehiclewithPlat(int plateToFind){
-        Boolean find = false;
+    public boolean FindVehiclewithPlat(int plateToFind){
+        boolean find = false;
         for (Vehicle element : vehicleList){
             if(plateToFind == element.getPlate()){
                 find = true;
@@ -32,4 +35,16 @@ public class FleetManager {
         }
         return find;
     }
+
+    //Bonus
+    public boolean IsDuplicate(Vehicle vehicle){
+        boolean duplicate = false;
+        for (Vehicle element : vehicleList){
+            if (element.getPlate() == vehicle.getPlate()){
+                duplicate = true;
+            }
+        }
+        return duplicate;
+    }
+
 }
